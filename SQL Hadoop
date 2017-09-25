@@ -1,0 +1,4 @@
+Load the text file in to mysql. using the sql command. 
+SQl 
+mysql> load data local infile '/home/cloudera/Dowloads/account.csv' into table account fields terminted by ',' lines terminated by '\n';
+
